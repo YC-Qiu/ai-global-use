@@ -3,4 +3,6 @@ deep-translator>=1.11.4
 langdetect>=1.0.9
 sentence-transformers>=2.2.0
 tqdm>=4.67.0
+dvc
+dvc[gdrive]
 
