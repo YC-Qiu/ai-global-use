@@ -1,0 +1,179 @@
+{
+  "model": "HistGradientBoostingRegressor",
+  "target": "AI_Adoption",
+  "samples": 23781,
+  "metrics": {
+    "rmse_mean": 0.15189502588177292,
+    "rmse_std": 0.0006571913665111145,
+    "mae_mean": 0.11903757284281365,
+    "mae_std": 0.0004100945822479001,
+    "r2_mean": 0.5539440241882841,
+    "r2_std": 0.00914263684821627,
+    "bin_match_rate": 0.5431647113241663,
+    "rmse_cv_predictions": 0.15189644758228116,
+    "mae_cv_predictions": 0.11903757284281365
+  },
+  "top_positive_factors": [
+    {
+      "feature": "trust_AI_5",
+      "importance": 0.009151967397180402,
+      "correlation": 0.44865759618017736
+    },
+    {
+      "feature": "trust_AI_4",
+      "importance": 0.004252746026653052,
+      "correlation": 0.5753163727747753
+    },
+    {
+      "feature": "trust_AI_6",
+      "importance": 0.002795271012976229,
+      "correlation": 0.4805659774720306
+    },
+    {
+      "feature": "respondent_education_Primary education",
+      "importance": 0.001778147800018873,
+      "correlation": 0.026791980643002932
+    },
+    {
+      "feature": "trust_AI_7",
+      "importance": 0.0012994792869014588,
+      "correlation": 0.4401525820341592
+    },
+    {
+      "feature": "respondent_gender_A man",
+      "importance": 0.0010949994076196793,
+      "correlation": 0.07540246678015175
+    },
+    {
+      "feature": "trust_AI_3",
+      "importance": 0.0007090618199284193,
+      "correlation": 0.3824515949824461
+    },
+    {
+      "feature": "trust_AI_2",
+      "importance": 0.0006154828343421521,
+      "correlation": 0.4460479196920343
+    },
+    {
+      "feature": "trust_AI_1",
+      "importance": 0.00042314069823166727,
+      "correlation": 0.45718292225808194
+    },
+    {
+      "feature": "trust_AI_8",
+      "importance": 0.0003052050431282323,
+      "correlation": 0.4894067913575084
+    }
+  ],
+  "top_negative_factors": [
+    {
+      "feature": "age",
+      "importance": 0.0016591783184331924,
+      "correlation": -0.41694506317133345
+    },
+    {
+      "feature": "respondent_gender_Non-binary",
+      "importance": 0.00042983411424697275,
+      "correlation": -0.020241894942130516
+    },
+    {
+      "feature": "respondent_education_Lower secondary education",
+      "importance": 0.00040773000266573143,
+      "correlation": -0.12012582585809677
+    },
+    {
+      "feature": "concern_count",
+      "importance": 0.00021895579941953597,
+      "correlation": -0.03450554860776489
+    },
+    {
+      "feature": "respondent_gender_A woman",
+      "importance": 0.00018666312082122883,
+      "correlation": -0.0731602262803863
+    }
+  ],
+  "best_params": {
+    "regressor__learning_rate": 0.03,
+    "regressor__max_iter": 300,
+    "regressor__min_samples_leaf": 40
+  },
+  "tuning_history_top5": [
+    {
+      "params": {
+        "regressor__learning_rate": 0.03,
+        "regressor__max_iter": 300,
+        "regressor__min_samples_leaf": 40
+      },
+      "metrics": {
+        "rmse_mean": 0.15189502588177292,
+        "mae_mean": 0.11903757284281365,
+        "r2_mean": 0.5539440241882841
+      }
+    },
+    {
+      "params": {
+        "regressor__learning_rate": 0.03,
+        "regressor__max_iter": 500,
+        "regressor__min_samples_leaf": 40
+      },
+      "metrics": {
+        "rmse_mean": 0.15189502588177292,
+        "mae_mean": 0.11903757284281365,
+        "r2_mean": 0.5539440241882841
+      }
+    },
+    {
+      "params": {
+        "regressor__learning_rate": 0.03,
+        "regressor__max_iter": 200,
+        "regressor__min_samples_leaf": 40
+      },
+      "metrics": {
+        "rmse_mean": 0.15189895369390663,
+        "mae_mean": 0.11904247768620348,
+        "r2_mean": 0.5539207920669805
+      }
+    },
+    {
+      "params": {
+        "regressor__learning_rate": 0.05,
+        "regressor__max_iter": 200,
+        "regressor__min_samples_leaf": 40
+      },
+      "metrics": {
+        "rmse_mean": 0.15194471581620597,
+        "mae_mean": 0.11886825188304116,
+        "r2_mean": 0.5536413689543959
+      }
+    },
+    {
+      "params": {
+        "regressor__learning_rate": 0.05,
+        "regressor__max_iter": 300,
+        "regressor__min_samples_leaf": 40
+      },
+      "metrics": {
+        "rmse_mean": 0.15194471581620597,
+        "mae_mean": 0.11886825188304116,
+        "r2_mean": 0.5536413689543959
+      }
+    }
+  ],
+  "bin_accuracy": {
+    "counts": {
+      "diff_0": 12917,
+      "diff_1": 10160,
+      "diff_2": 692,
+      "diff_3": 12,
+      "diff_4": 0
+    },
+    "percentages": {
+      "diff_0": 0.5431647113241663,
+      "diff_1": 0.4272318237248223,
+      "diff_2": 0.02909886043480089,
+      "diff_3": 0.0005046045162104201,
+      "diff_4": 0.0
+    }
+  },
+  "cv_predictions_csv": "output\\AI_Adoption_cv_predictions.csv"
+}

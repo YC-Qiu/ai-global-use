@@ -1,0 +1,96 @@
+{
+  "target": "Travel_use",
+  "samples": 23781,
+  "metrics": {
+    "rmse_mean": 0.24813934427667786,
+    "rmse_std": 0.0011620576145740967,
+    "mae_mean": 0.19763095252660365,
+    "mae_std": 0.00035114364684117654,
+    "r2_mean": 0.3373509318233401,
+    "r2_std": 0.010369829273479684
+  },
+  "top_positive_factors": [
+    {
+      "feature": "view_AI",
+      "coefficient": 0.08578178293790219
+    },
+    {
+      "feature": "respondent_education_No education",
+      "coefficient": 0.035658575853152887
+    },
+    {
+      "feature": "respondent_industry_Student",
+      "coefficient": 0.034099083196804346
+    },
+    {
+      "feature": "split_why_Artificial intelligence will make the future better",
+      "coefficient": 0.032849751163481725
+    },
+    {
+      "feature": "respondent_industry_Management of companies or enterprises",
+      "coefficient": 0.02558653925129265
+    },
+    {
+      "feature": "risk_daily_count",
+      "coefficient": 0.024517287697237662
+    },
+    {
+      "feature": "trust_AI_4",
+      "coefficient": 0.023507053421737055
+    },
+    {
+      "feature": "respondent_employment_Working for pay full-time",
+      "coefficient": 0.02227211358050028
+    },
+    {
+      "feature": "respondent_industry_Manufacturing",
+      "coefficient": 0.020800993686061475
+    },
+    {
+      "feature": "replace_future",
+      "coefficient": 0.019896823898202125
+    }
+  ],
+  "top_negative_factors": [
+    {
+      "feature": "split_why_Artificial intelligence will make the future worse",
+      "coefficient": -0.037689305517739094
+    },
+    {
+      "feature": "age",
+      "coefficient": -0.02510868713792896
+    },
+    {
+      "feature": "respondent_industry_Arts, entertainment or recreation",
+      "coefficient": -0.01918224605836766
+    },
+    {
+      "feature": "respondent_industry_Retired",
+      "coefficient": -0.018922512779138922
+    },
+    {
+      "feature": "respondent_employment_Retired",
+      "coefficient": -0.01848854342078527
+    },
+    {
+      "feature": "respondent_education_Primary education",
+      "coefficient": -0.016309712683309656
+    },
+    {
+      "feature": "respondent_industry_Professional, scientific or technical services",
+      "coefficient": -0.014665559318263506
+    },
+    {
+      "feature": "respondent_education_Lower secondary education",
+      "coefficient": -0.014649128937135486
+    },
+    {
+      "feature": "respondent_industry_Mining, quarrying, and oil and gas extraction",
+      "coefficient": -0.013058685308652247
+    },
+    {
+      "feature": "respondent_industry_Admin, support, waste management or remediation services",
+      "coefficient": -0.012294258051790729
+    }
+  ]
+}

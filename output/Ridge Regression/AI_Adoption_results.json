@@ -1,0 +1,96 @@
+{
+  "target": "AI_Adoption",
+  "samples": 23781,
+  "metrics": {
+    "rmse_mean": 0.15368234467143183,
+    "rmse_std": 0.0006755556570493205,
+    "mae_mean": 0.1214316157885581,
+    "mae_std": 0.000663699564489755,
+    "r2_mean": 0.5433765859175116,
+    "r2_std": 0.0097757038240119
+  },
+  "top_positive_factors": [
+    {
+      "feature": "view_AI",
+      "coefficient": 0.0660010050469821
+    },
+    {
+      "feature": "respondent_education_No education",
+      "coefficient": 0.04908630823098336
+    },
+    {
+      "feature": "GPT_use",
+      "coefficient": 0.042655402205213154
+    },
+    {
+      "feature": "split_why_Artificial intelligence will make the future better",
+      "coefficient": 0.036020166957762924
+    },
+    {
+      "feature": "risk_daily_count",
+      "coefficient": 0.025346250459322178
+    },
+    {
+      "feature": "respondent_industry_Student",
+      "coefficient": 0.022073706605299337
+    },
+    {
+      "feature": "replace_future",
+      "coefficient": 0.020575446376706465
+    },
+    {
+      "feature": "trust_AI_4",
+      "coefficient": 0.019158637384955206
+    },
+    {
+      "feature": "respondent_gender_A woman",
+      "coefficient": 0.014236888261797366
+    },
+    {
+      "feature": "respondent_employment_Self-employed",
+      "coefficient": 0.012930596630135969
+    }
+  ],
+  "top_negative_factors": [
+    {
+      "feature": "split_why_Artificial intelligence will make the future worse",
+      "coefficient": -0.036549224894566475
+    },
+    {
+      "feature": "respondent_gender_Non-binary",
+      "coefficient": -0.02387958323351799
+    },
+    {
+      "feature": "respondent_employment_Retired",
+      "coefficient": -0.021854147563378633
+    },
+    {
+      "feature": "respondent_industry_I don't work",
+      "coefficient": -0.020836883976435107
+    },
+    {
+      "feature": "respondent_industry_Retired",
+      "coefficient": -0.02001613450920837
+    },
+    {
+      "feature": "age",
+      "coefficient": -0.018756384711764502
+    },
+    {
+      "feature": "respondent_industry_Arts, entertainment or recreation",
+      "coefficient": -0.01815452501133609
+    },
+    {
+      "feature": "respondent_education_Lower secondary education",
+      "coefficient": -0.017521260689877142
+    },
+    {
+      "feature": "respondent_education_Primary education",
+      "coefficient": -0.013397478282479162
+    },
+    {
+      "feature": "respondent_education_Upper/Post secondary education",
+      "coefficient": -0.012535151419950827
+    }
+  ]
+}

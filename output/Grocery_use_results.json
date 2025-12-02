@@ -1,0 +1,179 @@
+{
+  "model": "HistGradientBoostingRegressor",
+  "target": "Grocery_use",
+  "samples": 23781,
+  "metrics": {
+    "rmse_mean": 0.25067110633956374,
+    "rmse_std": 0.001096281722811263,
+    "mae_mean": 0.19882863021349786,
+    "mae_std": 0.0008220880916535574,
+    "r2_mean": 0.339320550552956,
+    "r2_std": 0.006946239519205161,
+    "bin_match_rate": 0.39081619780497034,
+    "rmse_cv_predictions": 0.2506735035601422,
+    "mae_cv_predictions": 0.1988286302134979
+  },
+  "top_positive_factors": [
+    {
+      "feature": "trust_AI_5",
+      "importance": 0.015667564482147296,
+      "correlation": 0.48753446809321493
+    },
+    {
+      "feature": "trust_AI_6",
+      "importance": 0.0038339165181194507,
+      "correlation": 0.4902870329669663
+    },
+    {
+      "feature": "trust_AI_7",
+      "importance": 0.002280780696584926,
+      "correlation": 0.46342918551384005
+    },
+    {
+      "feature": "respondent_gender_A man",
+      "importance": 0.002167554813518051,
+      "correlation": 0.026078809158437365
+    },
+    {
+      "feature": "respondent_education_Primary education",
+      "importance": 0.001874111429202515,
+      "correlation": 0.016662138217720095
+    },
+    {
+      "feature": "trust_AI_2",
+      "importance": 0.0014459633511359113,
+      "correlation": 0.4833259793734495
+    },
+    {
+      "feature": "trust_AI_4",
+      "importance": 0.0012512414051092519,
+      "correlation": 0.6089096885954834
+    },
+    {
+      "feature": "trust_AI_8",
+      "importance": 0.0009651816334290769,
+      "correlation": 0.516971337081921
+    },
+    {
+      "feature": "trust_AI_1",
+      "importance": 0.0009274666408933874,
+      "correlation": 0.507231410464235
+    },
+    {
+      "feature": "respondent_education_No education",
+      "importance": 0.0007385738874643056,
+      "correlation": 0.0055911075499125076
+    }
+  ],
+  "top_negative_factors": [
+    {
+      "feature": "age",
+      "importance": 0.003769421191395872,
+      "correlation": -0.41177491378568015
+    },
+    {
+      "feature": "respondent_education_Lower secondary education",
+      "importance": 0.001026446029069586,
+      "correlation": -0.10156474781972497
+    },
+    {
+      "feature": "respondent_gender_Non-binary",
+      "importance": 0.0010040427693673991,
+      "correlation": -0.01707458492688743
+    },
+    {
+      "feature": "respondent_gender_A woman",
+      "importance": 0.0006353570148358939,
+      "correlation": -0.024188755676225998
+    },
+    {
+      "feature": "concern_count",
+      "importance": 0.0005833840491797894,
+      "correlation": -0.10467785825963159
+    }
+  ],
+  "best_params": {
+    "regressor__learning_rate": 0.05,
+    "regressor__max_iter": 100,
+    "regressor__min_samples_leaf": 40
+  },
+  "tuning_history_top5": [
+    {
+      "params": {
+        "regressor__learning_rate": 0.05,
+        "regressor__max_iter": 100,
+        "regressor__min_samples_leaf": 40
+      },
+      "metrics": {
+        "rmse_mean": 0.25067110633956374,
+        "mae_mean": 0.19882863021349786,
+        "r2_mean": 0.339320550552956
+      }
+    },
+    {
+      "params": {
+        "regressor__learning_rate": 0.05,
+        "regressor__max_iter": 200,
+        "regressor__min_samples_leaf": 40
+      },
+      "metrics": {
+        "rmse_mean": 0.25067289719234925,
+        "mae_mean": 0.19874020261381753,
+        "r2_mean": 0.33931114330223533
+      }
+    },
+    {
+      "params": {
+        "regressor__learning_rate": 0.05,
+        "regressor__max_iter": 300,
+        "regressor__min_samples_leaf": 40
+      },
+      "metrics": {
+        "rmse_mean": 0.25067289719234925,
+        "mae_mean": 0.19874020261381753,
+        "r2_mean": 0.33931114330223533
+      }
+    },
+    {
+      "params": {
+        "regressor__learning_rate": 0.05,
+        "regressor__max_iter": 500,
+        "regressor__min_samples_leaf": 40
+      },
+      "metrics": {
+        "rmse_mean": 0.25067289719234925,
+        "mae_mean": 0.19874020261381753,
+        "r2_mean": 0.33931114330223533
+      }
+    },
+    {
+      "params": {
+        "regressor__learning_rate": 0.05,
+        "regressor__max_iter": 100,
+        "regressor__min_samples_leaf": 10
+      },
+      "metrics": {
+        "rmse_mean": 0.2506904842504679,
+        "mae_mean": 0.19914120727510776,
+        "r2_mean": 0.33922323716137176
+      }
+    }
+  ],
+  "bin_accuracy": {
+    "counts": {
+      "diff_0": 9294,
+      "diff_1": 11220,
+      "diff_2": 2969,
+      "diff_3": 288,
+      "diff_4": 10
+    },
+    "percentages": {
+      "diff_0": 0.39081619780497034,
+      "diff_1": 0.4718052226567428,
+      "diff_2": 0.12484756738572811,
+      "diff_3": 0.012110508389050083,
+      "diff_4": 0.0004205037635086834
+    }
+  },
+  "cv_predictions_csv": "output\\Grocery_use_cv_predictions.csv"
+}

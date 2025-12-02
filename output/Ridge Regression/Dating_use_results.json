@@ -1,0 +1,96 @@
+{
+  "target": "Dating_use",
+  "samples": 23781,
+  "metrics": {
+    "rmse_mean": 0.1850332608350289,
+    "rmse_std": 0.0012901618227786603,
+    "mae_mean": 0.11965810312229329,
+    "mae_std": 0.0012736190152566682,
+    "r2_mean": 0.07705795802322242,
+    "r2_std": 0.008083516695630804
+  },
+  "top_positive_factors": [
+    {
+      "feature": "respondent_employment_Caring for family",
+      "coefficient": 0.030643700092978152
+    },
+    {
+      "feature": "respondent_education_No education",
+      "coefficient": 0.023333098766374884
+    },
+    {
+      "feature": "respondent_gender_A man",
+      "coefficient": 0.023131831058019598
+    },
+    {
+      "feature": "view_AI",
+      "coefficient": 0.021313830339181085
+    },
+    {
+      "feature": "respondent_industry_Wholesale trade",
+      "coefficient": 0.020110713595282305
+    },
+    {
+      "feature": "respondent_industry_Mining, quarrying, and oil and gas extraction",
+      "coefficient": 0.016804300369804886
+    },
+    {
+      "feature": "respondent_industry_Utilities",
+      "coefficient": 0.014024003940218749
+    },
+    {
+      "feature": "respondent_industry_Finance or insurance",
+      "coefficient": 0.01361981783836396
+    },
+    {
+      "feature": "urban_Peri-urban",
+      "coefficient": 0.01280630507989796
+    },
+    {
+      "feature": "split_why_Artificial intelligence will make the future better",
+      "coefficient": 0.01086845719101691
+    }
+  ],
+  "top_negative_factors": [
+    {
+      "feature": "respondent_gender_Non-binary",
+      "coefficient": -0.03303424240107093
+    },
+    {
+      "feature": "respondent_employment_Unemployed/looking for work",
+      "coefficient": -0.02074884663457645
+    },
+    {
+      "feature": "respondent_industry_I don't work",
+      "coefficient": -0.02015642706130598
+    },
+    {
+      "feature": "respondent_industry_Agriculture, forestry, fishing and hunting",
+      "coefficient": -0.015692225930701225
+    },
+    {
+      "feature": "respondent_industry_Retired",
+      "coefficient": -0.014922478924649814
+    },
+    {
+      "feature": "urban_Urban",
+      "coefficient": -0.013123908470226455
+    },
+    {
+      "feature": "respondent_industry_Information and cultural industries",
+      "coefficient": -0.012746517720373144
+    },
+    {
+      "feature": "respondent_industry_Student",
+      "coefficient": -0.012389513418919033
+    },
+    {
+      "feature": "respondent_industry_Arts, entertainment or recreation",
+      "coefficient": -0.01233437176467553
+    },
+    {
+      "feature": "respondent_employment_Student",
+      "coefficient": -0.011492790970697917
+    }
+  ]
+}

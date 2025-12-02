@@ -1,0 +1,179 @@
+{
+  "model": "HistGradientBoostingRegressor",
+  "target": "Dating_use",
+  "samples": 23781,
+  "metrics": {
+    "rmse_mean": 0.18380106624813042,
+    "rmse_std": 0.0010387559885098403,
+    "mae_mean": 0.1144848730416597,
+    "mae_std": 0.000508859112170597,
+    "r2_mean": 0.0892517313632915,
+    "r2_std": 0.011909164960449551,
+    "bin_match_rate": 0.7263361507085488,
+    "rmse_cv_predictions": 0.1838040015014725,
+    "mae_cv_predictions": 0.11448487304165969
+  },
+  "top_positive_factors": [
+    {
+      "feature": "trust_AI_5",
+      "importance": 0.0018746037035195658,
+      "correlation": 0.4615348950391235
+    },
+    {
+      "feature": "trust_AI_6",
+      "importance": 0.0007608035344775735,
+      "correlation": 0.4564593189656546
+    },
+    {
+      "feature": "GPT_use",
+      "importance": 0.000685982711149314,
+      "correlation": 0.35761746732366606
+    },
+    {
+      "feature": "trust_AI_7",
+      "importance": 0.0005683637878455327,
+      "correlation": 0.46370192048998266
+    },
+    {
+      "feature": "respondent_education_No education",
+      "importance": 0.000527475236628893,
+      "correlation": 0.006572823941113652
+    },
+    {
+      "feature": "trust_AI_8",
+      "importance": 0.0004436694400775168,
+      "correlation": 0.5026296985055567
+    },
+    {
+      "feature": "trust_AI_2",
+      "importance": 0.0003930255894127203,
+      "correlation": 0.49685993822142066
+    },
+    {
+      "feature": "respondent_gender_A man",
+      "importance": 0.0003903825995662649,
+      "correlation": 0.12564119604254298
+    },
+    {
+      "feature": "trust_AI_4",
+      "importance": 0.00036588414958642275,
+      "correlation": 0.5670043601835529
+    },
+    {
+      "feature": "risk_daily_count",
+      "importance": 0.0003640554757212658,
+      "correlation": 0.3184810139641248
+    }
+  ],
+  "top_negative_factors": [
+    {
+      "feature": "age",
+      "importance": 0.0012523623345616131,
+      "correlation": -0.3245641674514428
+    },
+    {
+      "feature": "respondent_education_Lower secondary education",
+      "importance": 0.00026770983461472107,
+      "correlation": -0.06539053482308563
+    },
+    {
+      "feature": "respondent_gender_Non-binary",
+      "importance": 0.00019400318030201452,
+      "correlation": -0.027310187444705352
+    },
+    {
+      "feature": "concern_count",
+      "importance": 0.00018007809135806366,
+      "correlation": -0.1952465962758862
+    },
+    {
+      "feature": "respondent_gender_A woman",
+      "importance": 0.00016040256472326443,
+      "correlation": -0.12261513298306569
+    }
+  ],
+  "best_params": {
+    "regressor__learning_rate": 0.03,
+    "regressor__max_iter": 200,
+    "regressor__min_samples_leaf": 40
+  },
+  "tuning_history_top5": [
+    {
+      "params": {
+        "regressor__learning_rate": 0.03,
+        "regressor__max_iter": 200,
+        "regressor__min_samples_leaf": 40
+      },
+      "metrics": {
+        "rmse_mean": 0.18380106624813042,
+        "mae_mean": 0.1144848730416597,
+        "r2_mean": 0.0892517313632915
+      }
+    },
+    {
+      "params": {
+        "regressor__learning_rate": 0.03,
+        "regressor__max_iter": 300,
+        "regressor__min_samples_leaf": 40
+      },
+      "metrics": {
+        "rmse_mean": 0.18380106624813042,
+        "mae_mean": 0.1144848730416597,
+        "r2_mean": 0.0892517313632915
+      }
+    },
+    {
+      "params": {
+        "regressor__learning_rate": 0.03,
+        "regressor__max_iter": 500,
+        "regressor__min_samples_leaf": 40
+      },
+      "metrics": {
+        "rmse_mean": 0.18380106624813042,
+        "mae_mean": 0.1144848730416597,
+        "r2_mean": 0.0892517313632915
+      }
+    },
+    {
+      "params": {
+        "regressor__learning_rate": 0.03,
+        "regressor__max_iter": 100,
+        "regressor__min_samples_leaf": 40
+      },
+      "metrics": {
+        "rmse_mean": 0.18389765344141562,
+        "mae_mean": 0.1141927352317314,
+        "r2_mean": 0.08830031688105226
+      }
+    },
+    {
+      "params": {
+        "regressor__learning_rate": 0.05,
+        "regressor__max_iter": 100,
+        "regressor__min_samples_leaf": 40
+      },
+      "metrics": {
+        "rmse_mean": 0.1839356526187097,
+        "mae_mean": 0.11531986284045409,
+        "r2_mean": 0.08792903017392277
+      }
+    }
+  ],
+  "bin_accuracy": {
+    "counts": {
+      "diff_0": 17273,
+      "diff_1": 4070,
+      "diff_2": 2423,
+      "diff_3": 15,
+      "diff_4": 0
+    },
+    "percentages": {
+      "diff_0": 0.7263361507085488,
+      "diff_1": 0.17114503174803414,
+      "diff_2": 0.10188806189815398,
+      "diff_3": 0.0006307556452630251,
+      "diff_4": 0.0
+    }
+  },
+  "cv_predictions_csv": "output\\Dating_use_cv_predictions.csv"
+}

@@ -1,0 +1,96 @@
+{
+  "target": "GPT_use_future",
+  "samples": 23781,
+  "metrics": {
+    "rmse_mean": 0.2540329705549717,
+    "rmse_std": 0.002358090871116022,
+    "mae_mean": 0.20380413145856488,
+    "mae_std": 0.0007304576236029181,
+    "r2_mean": 0.46973810103044,
+    "r2_std": 0.010533455801992837
+  },
+  "top_positive_factors": [
+    {
+      "feature": "GPT_use",
+      "coefficient": 0.09887441065734891
+    },
+    {
+      "feature": "view_AI",
+      "coefficient": 0.06690046429947728
+    },
+    {
+      "feature": "respondent_education_No education",
+      "coefficient": 0.06474702192442983
+    },
+    {
+      "feature": "split_why_Artificial intelligence will make the future better",
+      "coefficient": 0.054836310624656666
+    },
+    {
+      "feature": "risk_daily_count",
+      "coefficient": 0.037245379611337635
+    },
+    {
+      "feature": "GPT_know_Yes",
+      "coefficient": 0.0337281459413944
+    },
+    {
+      "feature": "respondent_employment_Self-employed",
+      "coefficient": 0.03301549691305675
+    },
+    {
+      "feature": "respondent_industry_Student",
+      "coefficient": 0.03199882486846133
+    },
+    {
+      "feature": "replace_future",
+      "coefficient": 0.02634075015068138
+    },
+    {
+      "feature": "respondent_gender_A man",
+      "coefficient": 0.025132299763916958
+    }
+  ],
+  "top_negative_factors": [
+    {
+      "feature": "split_why_Artificial intelligence will make the future worse",
+      "coefficient": -0.05118905026906732
+    },
+    {
+      "feature": "respondent_employment_Retired",
+      "coefficient": -0.04372324794894423
+    },
+    {
+      "feature": "respondent_gender_Non-binary",
+      "coefficient": -0.04303835442750489
+    },
+    {
+      "feature": "respondent_industry_I don't work",
+      "coefficient": -0.036861646095082135
+    },
+    {
+      "feature": "GPT_know_No",
+      "coefficient": -0.03372814594132521
+    },
+    {
+      "feature": "respondent_industry_Retired",
+      "coefficient": -0.024926101884467672
+    },
+    {
+      "feature": "respondent_industry_Arts, entertainment or recreation",
+      "coefficient": -0.023178281424148846
+    },
+    {
+      "feature": "respondent_education_Lower secondary education",
+      "coefficient": -0.02275151524159059
+    },
+    {
+      "feature": "age",
+      "coefficient": -0.01840417991181875
+    },
+    {
+      "feature": "respondent_industry_Mining, quarrying, and oil and gas extraction",
+      "coefficient": -0.01700825130943776
+    }
+  ]
+}

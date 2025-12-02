@@ -1,0 +1,184 @@
+{
+  "model": "HistGradientBoostingRegressor",
+  "target": "Travel_use",
+  "samples": 23781,
+  "metrics": {
+    "rmse_mean": 0.2469998188937659,
+    "rmse_std": 0.0010839136703682025,
+    "mae_mean": 0.19460274986757728,
+    "mae_std": 0.00047351056277303457,
+    "r2_mean": 0.34341981152750223,
+    "r2_std": 0.010379434449789443,
+    "bin_match_rate": 0.4030108069467222,
+    "rmse_cv_predictions": 0.2470021971610738,
+    "mae_cv_predictions": 0.19460274986757728
+  },
+  "top_positive_factors": [
+    {
+      "feature": "trust_AI_5",
+      "importance": 0.015519589150478578,
+      "correlation": 0.4806401105990107
+    },
+    {
+      "feature": "trust_AI_6",
+      "importance": 0.003587399951797552,
+      "correlation": 0.4998597808252281
+    },
+    {
+      "feature": "respondent_education_Primary education",
+      "importance": 0.001950331043791012,
+      "correlation": 0.008937908556922051
+    },
+    {
+      "feature": "respondent_gender_A man",
+      "importance": 0.0018648104454798893,
+      "correlation": 0.04301766304760114
+    },
+    {
+      "feature": "trust_AI_7",
+      "importance": 0.0016817934241980456,
+      "correlation": 0.4745504470045329
+    },
+    {
+      "feature": "trust_AI_2",
+      "importance": 0.0012125072893884204,
+      "correlation": 0.47177926115491575
+    },
+    {
+      "feature": "trust_AI_1",
+      "importance": 0.0011450051094076027,
+      "correlation": 0.4879683935491246
+    },
+    {
+      "feature": "trust_AI_4",
+      "importance": 0.001127216705717822,
+      "correlation": 0.6090219710780573
+    },
+    {
+      "feature": "GPT_use",
+      "importance": 0.0007587197573699203,
+      "correlation": 0.4561434219821472
+    },
+    {
+      "feature": "trust_AI_8",
+      "importance": 0.0007482428227073804,
+      "correlation": 0.5196054759195331
+    }
+  ],
+  "top_negative_factors": [
+    {
+      "feature": "age",
+      "importance": 0.0034778567508358996,
+      "correlation": -0.4048934103561453
+    },
+    {
+      "feature": "respondent_gender_Non-binary",
+      "importance": 0.000964687051432897,
+      "correlation": -0.01636174998555882
+    },
+    {
+      "feature": "respondent_education_Lower secondary education",
+      "importance": 0.0009313320468429913,
+      "correlation": -0.10555750097611472
+    },
+    {
+      "feature": "respondent_education_No education",
+      "importance": 0.0005278076381023463,
+      "correlation": -0.004477163363175598
+    },
+    {
+      "feature": "concern_count",
+      "importance": 0.0005088649874012772,
+      "correlation": -0.07915797845693191
+    },
+    {
+      "feature": "respondent_gender_A woman",
+      "importance": 0.0003153474341673443,
+      "correlation": -0.04120587381603624
+    }
+  ],
+  "best_params": {
+    "regressor__learning_rate": 0.03,
+    "regressor__max_iter": 200,
+    "regressor__min_samples_leaf": 40
+  },
+  "tuning_history_top5": [
+    {
+      "params": {
+        "regressor__learning_rate": 0.03,
+        "regressor__max_iter": 200,
+        "regressor__min_samples_leaf": 40
+      },
+      "metrics": {
+        "rmse_mean": 0.2469998188937659,
+        "mae_mean": 0.19460274986757728,
+        "r2_mean": 0.34341981152750223
+      }
+    },
+    {
+      "params": {
+        "regressor__learning_rate": 0.03,
+        "regressor__max_iter": 300,
+        "regressor__min_samples_leaf": 40
+      },
+      "metrics": {
+        "rmse_mean": 0.2469998188937659,
+        "mae_mean": 0.19460274986757728,
+        "r2_mean": 0.34341981152750223
+      }
+    },
+    {
+      "params": {
+        "regressor__learning_rate": 0.03,
+        "regressor__max_iter": 500,
+        "regressor__min_samples_leaf": 40
+      },
+      "metrics": {
+        "rmse_mean": 0.2469998188937659,
+        "mae_mean": 0.19460274986757728,
+        "r2_mean": 0.34341981152750223
+      }
+    },
+    {
+      "params": {
+        "regressor__learning_rate": 0.01,
+        "regressor__max_iter": 500,
+        "regressor__min_samples_leaf": 40
+      },
+      "metrics": {
+        "rmse_mean": 0.2470652242772511,
+        "mae_mean": 0.19530903189385826,
+        "r2_mean": 0.3430684138433245
+      }
+    },
+    {
+      "params": {
+        "regressor__learning_rate": 0.05,
+        "regressor__max_iter": 100,
+        "regressor__min_samples_leaf": 40
+      },
+      "metrics": {
+        "rmse_mean": 0.2470759086886604,
+        "mae_mean": 0.1949181385020653,
+        "r2_mean": 0.3430181903644474
+      }
+    }
+  ],
+  "bin_accuracy": {
+    "counts": {
+      "diff_0": 9584,
+      "diff_1": 11119,
+      "diff_2": 2765,
+      "diff_3": 301,
+      "diff_4": 12
+    },
+    "percentages": {
+      "diff_0": 0.4030108069467222,
+      "diff_1": 0.4675581346453051,
+      "diff_2": 0.11626929061015095,
+      "diff_3": 0.01265716328161137,
+      "diff_4": 0.0005046045162104201
+    }
+  },
+  "cv_predictions_csv": "output\\Travel_use_cv_predictions.csv"
+}
